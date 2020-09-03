@@ -1,0 +1,97 @@
+.elementoPADRE {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: center; 
+.hijo1 {
+      width: 400px;
+      margin: 10px;
+      padding: 10px;
+      font-size: 3vh;
+      text-align: center;
+      height: 60vh;
+      flex-grow: 50px;
+      letter-spacing: 3px;
+      line-height: 30px; }
+
+#descripciongeneralservicios {
+        font-family: 'Comfortaa', cursive;
+        color:#31B189;
+        text-align: center;
+        letter-spacing: 3px;
+        line-height: 30px;
+        font-weight: 400px;
+        font-size: 18px;}
+
+#listaservicios {
+            font-family: 'Comfortaa', cursive;
+            font-weight: 400px;
+            color: #BDB76B;
+            list-style-position: inside;
+            text-align: center;
+            font-size: 30px;
+            line-height: 30px;
+            font-size: 20px; }
+
+.hijo2 {
+                width: 400px;
+                margin: 10px;
+                padding: 10px;
+                text-align: center;
+                height: 60vh;
+                flex-grow: 50px; }
+}
+
+/*STICKY NOTE*/
+
+.sticky {
+	-webkit-box-shadow: #DDD 0px 1px 2px;
+	position: relative;
+	background-color: #F4F39E;
+	border-color: #DEE184;
+	color: #47576B;
+	text-align: center;
+	margin: 2em 0px;
+	padding: 1em 1em;
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+	width: 250px;
+	font-family: bold,'Antic Slab', serif;
+	font-family: bold,'Comfortaa', cursive;
+  }
+  .post-it {
+	display: table;
+	margin: 3em auto 0;  
+  }
+  .taped {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+  }
+  .sticky.taped:after {
+	display: block;
+	content: "";
+	position: absolute; 
+	width: 110px;
+	height: 30px;
+	top: -21px;
+	left: 30%;    
+	border: 1px solid #fff;
+	background: rgba(254, 254, 254, .6);
+	-webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0 3px rgba(0,0,0,0.1);
+	box-shadow: 0px 0 3px rgba(0,0,0,0.1);  
+  }
+  
+/*_______________________________________________*/
+
+.imgservicios {
+    width: 40%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px; }
+                
+
+

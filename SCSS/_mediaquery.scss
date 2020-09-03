@@ -1,0 +1,190 @@
+
+
+/*MEDIAQUERYS*/
+
+@media screen and (max-width: 700px) {
+          
+    #descripciongeneralservicios {
+            font-size:11px;
+            line-height: 15px;
+            padding: auto;
+            text-align: justify-all;
+          }
+
+    #listaservicios {
+            font-size: 11px;	
+            line-height: 20px;
+            padding: auto;
+            text-align: justify-all;
+          }
+
+     #sublistahab {
+
+        font-size: 10px;
+        line-height: 11px;
+
+          }
+
+     #sublistahab2EC {
+
+        font-size: 10px;
+        line-height: 11px;
+
+          }
+
+     #sublistahabMIXTACOMP {
+
+        font-size: 10px;
+        line-height: 14px;
+
+          }
+
+     #sublistaMIXTAAC {
+
+        font-size: 10px;
+        line-height: 11px;
+
+          }
+
+     #sublistaHABDOBLE2camas {
+
+        font-size: 10px;
+        line-height: 11px;
+
+          }
+
+     .cajahab {
+      background: none;
+      width: 120vw;
+      height:24vh;
+      text-align: center;
+      border:4px double #BDB76B;
+      margin: 20px 80px 20px 80px;
+      border-radius: 40px;
+      list-style-position: outside;
+
+             }
+
+     .imghab {
+     display: none;
+     }
+
+     #subtitulosCyC {
+
+     text-align: center;
+     letter-spacing: 1px;
+     line-height: 20px;
+     font-weight: bold;
+     font-size: 20px;
+   }
+
+    .transformacion {
+     width:70px;
+     height: 70px;
+     transition: height 2s, width 1s;       
+      }
+    
+    .sticky {
+      display: none;
+    }
+     
+}
+
+
+/* Por debajo de 400px */
+@media screen and (max-width: 400px) {
+
+    #descripciongeneralservicios {
+             font-size:11px;
+             line-height: 15px;
+             padding:auto;
+             letter-spacing: 1px;
+             text-align: justify-all;
+          }
+
+    #listaservicios {
+             font-size: 10px;
+             line-height: 15px;	
+             padding: auto;
+             text-align: justify-all;
+          }
+
+    #sublistahab {
+
+        font-size: 5px;
+        line-height: 14px;
+
+          }
+
+    #sublistahab2EC {
+
+        font-size: 5px;
+        line-height: 14px;
+
+          }
+
+    #sublistahabMIXTACOMP {
+
+        font-size: 5px;
+        line-height: 14px;
+
+          }
+
+    #sublistaMIXTAAC {
+
+        font-size: 5px;
+        line-height: 14px;
+
+          }
+
+    #sublistaHABDOBLE2camas {
+
+        font-size: 5px;
+        line-height: 14px;
+
+          }
+
+   
+     .cajahab {
+      background: none;
+      width: 150vw;
+      height:30vh;
+      font-size: 3px;
+      text-align: center;
+      border:4px double #BDB76B;
+      margin: 20px 80px 20px 80px;
+      border-radius: 40px;
+      list-style-position: outside;
+     
+
+          }
+
+     .imghab {
+     display: none;
+     }
+
+     .sticky {
+      display: none;
+    }
+
+}
+
+
+@media (min-width: 480px) {
+
+#border {
+border-color: #B8E68A;
+
+}
+
+}
+
+
+@media (min-width: 768px) {
+
+#border {
+border-color:#31B189;
+}
+
+}
+

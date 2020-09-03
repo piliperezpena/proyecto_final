@@ -1,0 +1,203 @@
+@import "header.scss";
+@import "home.scss";
+@import "habitaciones";
+@import "servicios.scss";
+@import "contacto.scss";
+@import "ubicacion.scss";
+@import "colores.scss";
+@import "animaciones.scss";
+@import "transformacion.scss";
+@import "mediaquery.scss";
+@import "footer.scss";
+
+h1 {
+	font-family: bold, "Antic Slab", serif;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 15px;
+	font-size: 7vw;
+	color:$verde;
+	padding-top: 10%;
+	animation-duration: 2s;
+    animation-name: aparecer; }
+    
+h2 {
+		font-family: 'Comfortaa', cursive;
+		color:$verde;
+		letter-spacing: 1px;
+		line-height: 20px;
+		font-weight: 700px;
+    }
+    
+header h2 {
+		  line-height: 20px;
+          font-weight: 700px; }
+
+h3 {
+            font: bold, "Comfortaa", cursive;
+            color: $verde;
+            letter-spacing: 1px;
+            line-height: 20px;
+            font-weight: bold; }
+          
+h4 {
+            font: bold, "Comfortaa", cursive;
+            color: $verde;
+            letter-spacing: 1px;
+            line-height: 16px;
+            font-weight: 700px; }
+
+body {
+            background-color: $colorfondo; }
+
+div {
+		font: bold, "Comfortaa", cursive;
+		color: $negro;
+		letter-spacing: 1px;
+		line-height: 20px;
+		font-weight: 700px; }
+
+img {
+    max-width: 100%; } 
+                
+a { 
+       color: $verde; }
+ 
+main {
+            max-width: 800px;
+            padding: 1rem;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            grid-template-rows: 200px 200px 200px;
+            grid-gap: 1rem; 
+
+         img {
+              object-fit: cover;
+              width: 7vw;
+              height: 15vh;
+              border-radius: 10px;
+              max-width: 100%; }
+        }
+
+.caja {
+                background-color: $colorfondo;
+                width: 80vw;
+                height:4vh;
+                padding: 5%;
+                border:2px dotted $colorcaja;
+                margin-top: 40px;
+                margin-left: auto;
+                margin-bottom: 40px;
+                margin-right: auto;
+                border-radius: 40px;
+                opacity: 0.9;
+                }   
+nav div {
+                    display:flex;	
+                    flex-direction: row;
+                    justify-content: center; }
+                
+#colorfondo {
+                background-color:$colorfondo;}
+
+#centrarmenu {
+                font-family: 'Comfortaa', cursive;
+                text-align: center;
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                line-height: 20px;}                      
+                  
+#subtitulos {
+                 font-family: 'Comfortaa', cursive;
+                 color:#31B189;
+                 background: linear-gradient(to top,  #f6fff8, #eaf4f4, #f6fff8);
+                 text-align: center;
+                 letter-spacing: 1px;
+                 line-height: 20px;
+                 font-weight: bold; }
+                  
+#descripciongeneral {
+                      font-family: 'Comfortaa', cursive;
+                      color:#31B189;
+                      margin: 10px;
+                      padding: 10px;
+                      text-align: center;
+                      letter-spacing: 3px;
+                      line-height: 30px;
+                      font-weight: 700px;
+                      font-size: 20px; }
+
+hr {border: 1px dashed grey; height: 0; width: 100%;}
+/*_____________GRID_____________*/
+                  
+main {
+    max-width: 800px;
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 1rem; }
+   
+main div img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;}
+   
+.item-a {
+    grid-row: 1 / 3;}
+   
+.item-b {
+    grid-column: 3 / 5;}
+   
+.item-c {
+    grid-row: 2 / 4;}
+   
+.item-d {
+    grid-column: 3 / 5;}
+  
+
+
+/*_______FRAMEWORKS CSS + BOOTSTRAP________*/
+                  
+.col-sm-4 img{
+    margin-right: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    border-image: 10px;}
+
+.col-sm-4 img{
+    margin-right: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    border-image: 10px;}          
+/*_______________________________________________*/
+
+/*_____________FLEXBOX_____________*/
+                  
+#contenedorprincipal {
+    display: flex;}
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 10%;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;}
+
+/*________________________________*/
+
+/*GALERIA*/
+.carousel img {        
+      height: auto; }
+  
+/*________*/  
+
+                  
+
+
+

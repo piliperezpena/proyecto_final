@@ -1,0 +1,55 @@
+/*TRANFORMACION*/
+
+/*Tranformacion Logo*/
+
+.transformacion {
+	width: 120px;
+	height: 120px;
+    transition: height 2s, width 1s; 
+}
+  
+.transformacion:hover {
+	height: 200px;
+    width: 200px; 
+}
+
+/*Transformacion Mapa*/
+  
+.transformacionMAPA {
+	width: 300px;
+	height: 200px;
+	transition: height 2s, width 2s; }
+  
+.transformacionMAPA:hover {
+	height: 400px;
+	width: 700px; }
+
+/*Transformacion a*/
+
+a:hover {
+		color:$verdeclaro; }
+
+/*Transformacion fondos*/
+
+#hijoDEhijoA:hover {
+			color:#31B189;
+			background-color:whitesmoke;}
+#hijoDEhijoB:hover {
+				color:#31B189;
+				background-color:whitesmoke;}
+#hijoDEhijoD:hover {
+					color:#31B189;
+					background-color:whitesmoke;}					
+#hijoDEhijoE:hover {
+						color:#31B189;
+						background-color:whitesmoke;}
+
+/*Transformacion imagenes en index*/
+
+#hijoDEhijoC img:hover {
+					width: 200px;
+					height: 170px; }
+
+					
+  
+  

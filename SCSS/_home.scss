@@ -1,0 +1,116 @@
+
+  
+.mainservicios {
+    display: grid;
+    grid-template-areas: 
+    "Servicios"
+    "Habitaciones"
+    "Galeria"
+    "Ubicacion"
+    "Contacto";
+
+    grid-template-columns: auto;
+    grid-auto-rows: 150px 150px 20px 120px 120px;
+    grid-gap: 3rem;
+    grid-template-areas: 
+    "Servicios"
+    "Habitaciones"
+    "Galeria"
+    "Ubicacion"
+    "Contacto";
+    align-items: stretch;
+    justify-content: stretch;
+    background-image: url(Fotos/fondopng.png);
+    padding: 5%;
+    border-radius: 10px;
+    opacity: 0.9; }  
+                   
+#border {
+    border: 5px solid #31B189;}
+
+.hijoA {
+    grid-area: Servicios;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #B8E68A;
+    grid-row-start: 1;                
+#hijoDEhijoA {
+    grid-area: Servicios;
+    justify-self: end;
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-weight: 300px;}
+}
+
+.hijoB {
+    grid-area: Habitaciones;
+    background-color: #ACE6A1;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    grid-row-start: 2; 
+#hijoDEhijoB {
+    grid-area: Habitaciones;
+    justify-self: end;
+    color: white;
+    font-size: 2vh;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 20px;
+    font-weight: 300px;}
+}
+
+.hijoC {
+    grid-area: Galeria;
+    background-color: #CDE4AD;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    grid-row-start: 3;                  
+#hijoDEhijoC {
+    grid-area:Galeria;
+    justify-self:auto;}
+}
+
+.hijoD {
+    grid-area: Ubicacion;
+    background-color: #ACE6A1;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    grid-row-start: 4; 
+#hijoDEhijoD {
+    grid-area: Ubicacion;
+    justify-self: end;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-weight: 300px;}
+}
+
+.hijoE {
+    grid-area: Contacto;
+    background-color: #B8E68A;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    grid-row-start: 5;                
+#hijoDEhijoE {
+    grid-area: Contacto;
+    justify-self: end;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-weight: 300px;}
+}
+
+
+/*_______________________________________________*/
