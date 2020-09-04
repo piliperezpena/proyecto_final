@@ -415,7 +415,7 @@ a:hover {
 /*MEDIAQUERYS*/
 @media screen and (max-width: 700px) {
   #descripciongeneralservicios {
-    font-size: 11px;
+    font-size: 10px;
     line-height: 15px;
     padding: auto;
     text-align: justify-all; }
@@ -424,30 +424,40 @@ a:hover {
     line-height: 20px;
     padding: auto;
     text-align: justify-all; }
-  #sublistahab {
-    font-size: 10px;
-    line-height: 11px; }
-  #sublistahab2EC {
-    font-size: 10px;
-    line-height: 11px; }
-  #sublistahabMIXTACOMP {
-    font-size: 10px;
-    line-height: 14px; }
-  #sublistaMIXTAAC {
-    font-size: 10px;
-    line-height: 11px; }
-  #sublistaHABDOBLE2camas {
-    font-size: 10px;
-    line-height: 11px; }
+  .elementoPADRE {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: center; }
+  #contenedorHab {
+    display: flex;
+    flex-direction: row; }
   .cajahab {
-    background: none;
-    width: 120vw;
-    height: 24vh;
-    text-align: center;
-    border: 4px double #BDB76B;
+    background: url(Fotos/fondo1.jpg);
+    background-size: cover;
+    width: 80vw;
+    height: 40vh;
+    padding: 5%;
+    border: 2px double #BDB76B;
     margin: 20px 80px 20px 80px;
     border-radius: 40px;
-    list-style-position: outside; }
+    list-style-image: outside; }
+  #sublistahab {
+    font-size: 15px;
+    line-height: 15px; }
+  #sublistahab2EC {
+    font-size: 15px;
+    line-height: 15px; }
+  #sublistahabMIXTACOMP {
+    font-size: 15px;
+    line-height: 15px; }
+  #sublistaMIXTAAC {
+    font-size: 15px;
+    line-height: 15px; }
+  #sublistaHABDOBLE2camas {
+    font-size: 15px;
+    line-height: 18px; }
   .imghab {
     display: none; }
   #subtitulosCyC {
@@ -476,21 +486,27 @@ a:hover {
     line-height: 15px;
     padding: auto;
     text-align: justify-all; }
+  .elementoPADRE {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: center; }
   #sublistahab {
-    font-size: 5px;
-    line-height: 14px; }
+    font-size: 13px;
+    line-height: 15px; }
   #sublistahab2EC {
-    font-size: 5px;
-    line-height: 14px; }
+    font-size: 13px;
+    line-height: 15px; }
   #sublistahabMIXTACOMP {
-    font-size: 5px;
-    line-height: 14px; }
+    font-size: 13px;
+    line-height: 15px; }
   #sublistaMIXTAAC {
-    font-size: 5px;
-    line-height: 14px; }
+    font-size: 13px;
+    line-height: 15px; }
   #sublistaHABDOBLE2camas {
-    font-size: 5px;
-    line-height: 14px; }
+    font-size: 13px;
+    line-height: 15px; }
   .cajahab {
     background: none;
     width: 150vw;

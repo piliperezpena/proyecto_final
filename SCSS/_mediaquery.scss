@@ -4,66 +4,78 @@
 
 @media screen and (max-width: 700px) {
           
-    #descripciongeneralservicios {
-            font-size:11px;
+#descripciongeneralservicios {
+            font-size:10px;
             line-height: 15px;
             padding: auto;
             text-align: justify-all;
           }
 
-    #listaservicios {
+#listaservicios {
             font-size: 11px;	
             line-height: 20px;
             padding: auto;
             text-align: justify-all;
           }
 
-     #sublistahab {
+.elementoPADRE {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            flex-wrap: nowrap;
+            align-content: center; 
 
-        font-size: 10px;
-        line-height: 11px;
+}
+
+#contenedorHab {
+  display:flex;
+  flex-direction: row; }
+  
+  .cajahab {
+      background: url(Fotos/fondo1.jpg);
+      background-size: cover;
+      width: 80vw;
+      height:40vh;
+      padding: 5%;
+      border:2px double #BDB76B;
+      margin: 20px 80px 20px 80px;
+      border-radius: 40px; 
+      list-style-image: outside;
+  }
+
+#sublistahab {
+
+        font-size: 15px;
+        line-height: 15px;
 
           }
 
-     #sublistahab2EC {
+#sublistahab2EC {
 
-        font-size: 10px;
-        line-height: 11px;
+        font-size: 15px;
+        line-height: 15px;
 
           }
 
-     #sublistahabMIXTACOMP {
+#sublistahabMIXTACOMP {
 
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 15px;
+        line-height: 15px;
 
           }
 
      #sublistaMIXTAAC {
 
-        font-size: 10px;
-        line-height: 11px;
+        font-size: 15px;
+        line-height: 15px;
 
           }
 
      #sublistaHABDOBLE2camas {
 
-        font-size: 10px;
-        line-height: 11px;
-
+        font-size: 15px;
+        line-height: 18px;
           }
-
-     .cajahab {
-      background: none;
-      width: 120vw;
-      height:24vh;
-      text-align: center;
-      border:4px double #BDB76B;
-      margin: 20px 80px 20px 80px;
-      border-radius: 40px;
-      list-style-position: outside;
-
-             }
 
      .imghab {
      display: none;
@@ -94,7 +106,7 @@
 /* Por debajo de 400px */
 @media screen and (max-width: 400px) {
 
-    #descripciongeneralservicios {
+#descripciongeneralservicios {
              font-size:11px;
              line-height: 15px;
              padding:auto;
@@ -102,50 +114,56 @@
              text-align: justify-all;
           }
 
-    #listaservicios {
+#listaservicios {
              font-size: 10px;
              line-height: 15px;	
              padding: auto;
              text-align: justify-all;
           }
+.elementoPADRE {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            flex-wrap: nowrap;
+            align-content: center; 
+}
+#sublistahab {
 
-    #sublistahab {
-
-        font-size: 5px;
-        line-height: 14px;
-
-          }
-
-    #sublistahab2EC {
-
-        font-size: 5px;
-        line-height: 14px;
-
-          }
-
-    #sublistahabMIXTACOMP {
-
-        font-size: 5px;
-        line-height: 14px;
+        font-size: 13px;
+        line-height: 15px;
 
           }
 
-    #sublistaMIXTAAC {
+#sublistahab2EC {
 
-        font-size: 5px;
-        line-height: 14px;
+        font-size: 13px;
+        line-height: 15px;
 
           }
 
-    #sublistaHABDOBLE2camas {
+#sublistahabMIXTACOMP {
 
-        font-size: 5px;
-        line-height: 14px;
+        font-size: 13px;
+        line-height: 15px;
+
+          }
+
+#sublistaMIXTAAC {
+
+        font-size: 13px;
+        line-height: 15px;
+
+          }
+
+#sublistaHABDOBLE2camas {
+
+        font-size: 13px;
+        line-height: 15px;
 
           }
 
    
-     .cajahab {
+.cajahab {
       background: none;
       width: 150vw;
       height:30vh;
@@ -155,11 +173,9 @@
       margin: 20px 80px 20px 80px;
       border-radius: 40px;
       list-style-position: outside;
-     
-
           }
 
-     .imghab {
+.imghab {
      display: none;
      }
 
@@ -183,8 +199,6 @@ border-color: #B8E68A;
 @media (min-width: 768px) {
 
 #border {
-border-color:#31B189;
-}
+border-color:#31B189;}
 
 }
-
