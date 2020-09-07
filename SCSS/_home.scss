@@ -1,6 +1,7 @@
 
   
 .mainservicios {
+    
     display: grid;
     grid-template-areas: 
     "Servicios"
@@ -20,7 +21,7 @@
     "Contacto";
     align-items: stretch;
     justify-content: stretch;
-    background-image: url(Fotos/fondopng.png);
+    background-image: url(Fotos/fondopg.png);
     padding: 5%;
     border-radius: 10px;
     opacity: 0.9; }  
