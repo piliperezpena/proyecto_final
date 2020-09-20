@@ -14,9 +14,10 @@
   grid-gap: 3rem;
   grid-template-areas: "Servicios" "Habitaciones" "Galeria" "Ubicacion" "Contacto";
   align-items: stretch;
-  justify-content: stretch;
   background-color: #f5f5f0;
-  background-image: url(Fotos/fondopng.png);
+  background-image: url(fotos/fondo.png);
+  border-image-repeat: repeat;
+  background-size: cover;
   padding: 5%;
   border-radius: 10px;
   opacity: 0.9; }
