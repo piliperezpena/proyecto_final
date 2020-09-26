@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     flex-wrap: nowrap;
     align-content: center; 
+
 .hijo1 {
       width: 400px;
       margin: 10px;
@@ -22,7 +23,7 @@
         letter-spacing: 3px;
         line-height: 30px;
         font-weight: 400px;
-        font-size: 18px;}
+        font-size: 18px; }
 
 #listaservicios {
             font-family: 'Comfortaa', cursive;
@@ -59,18 +60,18 @@
 	box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
 	width: 250px;
 	font-family: bold,'Antic Slab', serif;
-	font-family: bold,'Comfortaa', cursive;
-  }
-  .post-it {
+  font-family: bold,'Comfortaa', cursive; }
+  
+.post-it {
 	display: table;
-	margin: 3em auto 0;  
-  }
-  .taped {
+  margin: 3em auto 0; }
+  
+.taped {
 	display: table-cell;
 	text-align: center;
-	vertical-align: middle;
-  }
-  .sticky.taped:after {
+  vertical-align: middle; }
+  
+.sticky.taped:after {
 	display: block;
 	content: "";
 	position: absolute; 
@@ -82,8 +83,7 @@
 	background: rgba(254, 254, 254, .6);
 	-webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0px 0 3px rgba(0,0,0,0.1);
-	box-shadow: 0px 0 3px rgba(0,0,0,0.1);  
-  }
+	box-shadow: 0px 0 3px rgba(0,0,0,0.1); }
   
 /*_______________________________________________*/
 

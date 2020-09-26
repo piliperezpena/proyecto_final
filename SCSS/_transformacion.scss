@@ -5,13 +5,11 @@
 .transformacion {
 	width: 120px;
 	height: 120px;
-    transition: height 2s, width 1s; 
-}
+    transition: height 2s, width 1s; }
   
 .transformacion:hover {
 	height: 200px;
-    width: 200px; 
-}
+    width: 200px; }
 
 /*Transformacion Mapa*/
   
@@ -34,16 +32,19 @@ a:hover {
 #hijoDEhijoA:hover {
 			color:#31B189;
 			background-color:whitesmoke;}
+
 #hijoDEhijoB:hover {
 				color:#31B189;
 				background-color:whitesmoke;}
+
 #hijoDEhijoD:hover {
 					color:#31B189;
-					background-color:whitesmoke;}					
+					background-color:whitesmoke;}
+
 #hijoDEhijoE:hover {
 						color:#31B189;
 						background-color:whitesmoke;}
-
+						
 /*Transformacion imagenes en index*/
 
 #hijoDEhijoC img:hover {

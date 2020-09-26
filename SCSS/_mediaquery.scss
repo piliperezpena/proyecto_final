@@ -5,50 +5,45 @@
 @media screen and (max-width: 700px) {
           
 #descripciongeneralservicios {
-            font-size:10px;
-            line-height: 15px;
-            padding: auto;
-            text-align: justify-all;
-          }
+  font-size:10px;
+  line-height: 15px;
+  padding: auto;
+  text-align: justify-all; }
 
 #listaservicios {
-            font-size: 11px;	
-            line-height: 20px;
-            padding: auto;
-            text-align: justify-all;
-          }
+  font-size: 11px;	
+  line-height: 20px;
+  padding: auto;
+  text-align: justify-all; }
 
 .elementoPADRE {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            flex-wrap: nowrap;
-            align-content: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-content: center; }
 
-}
 .mainservicios {
-    display: grid;
-    grid-template-areas: 
+  display: grid;
+  grid-template-areas: 
     "Servicios"
     "Habitaciones"
     "Galeria"
     "Ubicacion"
     "Contacto";
-
-    grid-template-columns: auto;
-    grid-auto-rows: 150px 150px 20px 120px 120px;
-    grid-gap: 3rem;
-    grid-template-areas: 
+  grid-template-columns: auto;
+  grid-auto-rows: 150px 150px 20px 120px 120px;
+  grid-gap: 3rem;
+  grid-template-areas: 
     "Servicios"
     "Habitaciones"
     "Galeria"
     "Ubicacion"
     "Contacto";
-    align-items: stretch;
-    justify-content: stretch;
-    padding: 5%;
-    border-radius: 10px;
-    }  
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 5%;
+  border-radius: 10px; }  
 
 .hijoA {
   grid-area: Servicios;
@@ -65,9 +60,8 @@
   text-align: center;
   letter-spacing: 3px;
   line-height: 20px;
-  font-weight: 300px;}
+  font-weight: 300px; }
 }
-
 
 .hijoB {
   grid-area: Habitaciones;
@@ -84,7 +78,7 @@
   text-align: center;
   letter-spacing: 2.5px;
   line-height: 20px;
-  font-weight: 300px;}
+  font-weight: 300px; }
 }
 
 .hijoC {
@@ -98,10 +92,8 @@
   grid-area:Galeria;
   justify-self:auto;
   img {
-
     width: 17vw;
-    height: 15vw;
-  }
+    height: 15vw; }
  }
 }
 
@@ -120,7 +112,7 @@
   text-align: center;
   letter-spacing: 2.5px;
   line-height: 20px;
-  font-weight: 300px;}
+  font-weight: 300px; }
 }
 
 .hijoE {
@@ -138,295 +130,271 @@
   text-align: center;
   letter-spacing: 2.5px;
   line-height: 20px;
-  font-weight: 300px;}
+  font-weight: 300px; }
 }
 
+#listas {
+  font-family: 'Comfortaa', cursive;
+  color: #31B189;
+  font-weight: lighter;
+  list-style-position: inside;
+  text-align: center;
+  font-size: 30px; }
 
 #contenedorHab {
   display:flex;
-  flex-direction: row; }
-  
-  .cajahab {
-      background: url(Fotos/fondo1.jpg);
-      background-size: cover;
-      width: 80vw;
-      height:40vh;
-      padding: 5%;
-      border:2px double #BDB76B;
-      margin: 20px 80px 20px 80px;
-      border-radius: 40px; 
-      list-style-image: outside;
-  }
+  flex-direction: column; 
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-content: center; }
+.imghab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  height: 50vh;
+  padding: auto; }
+
+.cajahab {
+  background: url(fotos/fondo1.jpg);
+  background-size: cover;
+  width: 80vw;
+  height:40vh;
+  padding: 10px;
+  border:2px double #BDB76B;
+  margin: 5px 5px 5px 5px;
+  border-radius: 40px; 
+  list-style-image: outside; }
 
 #sublistahab {
-
-        font-size: 12px;
-        line-height: 15px;
-
-          }
+  font-size: 12px;
+  line-height: 15px; }
 
 #sublistahab2EC {
-
-        font-size: 12px;
-        line-height: 15px;
-
-          }
+  font-size: 12px;
+  line-height: 15px; }
 
 #sublistahabMIXTACOMP {
+  font-size: 12px;
+  line-height: 15px; }
 
-        font-size: 12px;
-        line-height: 15px;
+#sublistaMIXTAAC {
+  font-size: 12px;
+  line-height: 15px; }
 
-          }
+#sublistaHABDOBLE2camas {
+  font-size: 12px;
+  line-height: 18px; }
 
-     #sublistaMIXTAAC {
+#subtitulosCyC {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 20px; }
 
-        font-size: 12px;
-        line-height: 15px;
+.transformacion {
+  width:70px;
+  height: 70px;
+  transition: height 2s, width 1s; }
 
-          }
-
-     #sublistaHABDOBLE2camas {
-
-        font-size: 12px;
-        line-height: 18px;
-          }
-
-     .imghab {
-     display: none;
-     }
-
-     #subtitulosCyC {
-
-     text-align: center;
-     letter-spacing: 1px;
-     line-height: 20px;
-     font-weight: bold;
-     font-size: 20px;
-   }
-
-    .transformacion {
-     width:70px;
-     height: 70px;
-     transition: height 2s, width 1s;       
-      }
-    
-    .sticky {
-      display: none;
-    }
-     
+.sticky {
+  display: none;}
 }
-
 
 /* Por debajo de 400px */
 @media screen and (max-width: 400px) {
 
 #descripciongeneralservicios {
-             font-size:11px;
-             line-height: 15px;
-             padding:auto;
-             letter-spacing: 1px;
-             text-align: justify-all;
-          }
+  font-size:11px;
+  line-height: 15px;
+  padding:auto;
+  letter-spacing: 1px;
+  text-align: justify-all; }
 
 #listaservicios {
-             font-size: 10px;
-             line-height: 15px;	
-             padding: auto;
-             text-align: justify-all;
-          }
+  font-size: 10px;
+  line-height: 15px;	
+  padding: auto;
+  text-align: justify-all; }
+
 .mainservicios {
-            display: grid;
-            grid-template-areas: 
-            "Servicios"
-            "Habitaciones"
-            "Galeria"
-            "Ubicacion"
-            "Contacto";
+  display: grid;
+  grid-template-areas: 
+    "Servicios"
+    "Habitaciones"
+    "Galeria"
+    "Ubicacion"
+    "Contacto";
         
-            grid-template-columns: auto;
-            grid-auto-rows: 150px 150px 20px 120px 120px;
-            grid-gap: 3rem;
-            grid-template-areas: 
-            "Servicios"
-            "Habitaciones"
-            "Galeria"
-            "Ubicacion"
-            "Contacto";
-            align-items: stretch;
-            justify-content: stretch;
-            padding: 5%;
-            border-radius: 10px;
-            }  
+grid-template-columns: auto;
+grid-auto-rows: 150px 150px 20px 120px 120px;
+grid-gap: 3rem;
+grid-template-areas: 
+    "Servicios"
+    "Habitaciones"
+    "Galeria"
+    "Ubicacion"
+    "Contacto";
+align-items: stretch;
+justify-content: stretch;
+padding: 5%;
+border-radius: 10px; }  
         
 .hijoA {
-          grid-area: Servicios;
-          padding-top: 4%;
-          padding-bottom: 4%;
-          text-align: center;
-          background-color: #B8E68A;
-          grid-row-start: 1;                
+  grid-area: Servicios;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+  background-color: #B8E68A;
+  grid-row-start: 1;                
 #hijoDEhijoA {
-          grid-area: Servicios;
-          justify-self: end;
-          color: white;
-          font-size: 2vh;
-          text-align: center;
-          letter-spacing: 3px;
-          line-height: 20px;
-          font-weight: 300px;}
-        }
-        
-        
+  grid-area: Servicios;
+  justify-self: end;
+  color: white;
+  font-size: 2vh;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 20px;
+  font-weight: 300px; }
+}
+
 .hijoB {
-          grid-area: Habitaciones;
-          background-color: #ACE6A1;
-          padding-top: 4%;
-          padding-bottom: 4%;
-          text-align: center;
-          grid-row-start: 2; 
+  grid-area: Habitaciones;
+  background-color: #ACE6A1;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+  grid-row-start: 2; 
 #hijoDEhijoB {
-          grid-area: Habitaciones;
-          justify-self: end;
-          color: white;
-          font-size: 2vh;
-          text-align: center;
-          letter-spacing: 2.5px;
-          line-height: 20px;
-          font-weight: 300px;}
-        }
+  grid-area: Habitaciones;
+  justify-self: end;
+  color: white;
+  font-size: 2vh;
+  text-align: center;
+  letter-spacing: 2.5px;
+  line-height: 20px;
+  font-weight: 300px; }
+}
         
 .hijoC {
-          grid-area: Galeria;
-          background-color: #CDE4AD;
-          padding-top: 4%;
-          padding-bottom: 4%;
-          text-align: center;
-          grid-row-start: 3;                  
+ grid-area: Galeria;
+ background-color: #CDE4AD;
+ padding-top: 4%;
+ padding-bottom: 4%;
+ text-align: center;
+ grid-row-start: 3;                  
 #hijoDEhijoC {
-          grid-area:Galeria;
-          justify-self:auto;
-img {
-          width: 17vw;
-          height: 15vw;
-          }
-         }
-        }
+ grid-area:Galeria;
+ justify-self:auto;
+ img {
+    width: 17vw;
+    height: 15vw; }
+  }
+}
         
 .hijoD {
-          grid-area: Ubicacion;
-          background-color: #ACE6A1;
-          padding-top: 4%;
-          padding-bottom: 4%;
-          text-align: center;
-          grid-row-start: 4; 
+  grid-area: Ubicacion;
+  background-color: #ACE6A1;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+  grid-row-start: 4; 
 #hijoDEhijoD {
-          grid-area: Ubicacion;
-          justify-self: end;
-          color: white;
-          font-size: 2vh;
-          text-align: center;
-          letter-spacing: 2.5px;
-          line-height: 20px;
-          font-weight: 300px;}
-        }
+  grid-area: Ubicacion;
+  justify-self: end;
+  color: white;
+  font-size: 2vh;
+  text-align: center;
+  letter-spacing: 2.5px;
+  line-height: 20px;
+  font-weight: 300px; }
+}
         
 .hijoE {
-          grid-area: Contacto;
-          background-color: #B8E68A;
-          padding-top: 4%;
-          padding-bottom: 4%;
-          text-align: center;
-          grid-row-start: 5;                
+  grid-area: Contacto;
+  background-color: #B8E68A;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+  grid-row-start: 5;                
 #hijoDEhijoE {
-          grid-area: Contacto;
-          justify-self: end;
-          color: white;
-          font-size: 2vh;
-          text-align: center;
-          letter-spacing: 2.5px;
-          line-height: 20px;
-          font-weight: 300px;}
-        }
-.elementoPADRE {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            flex-wrap: nowrap;
-            align-content: center; 
+  grid-area: Contacto;
+  justify-self: end;
+  color: white;
+  font-size: 2vh;
+  text-align: center;
+  letter-spacing: 2.5px;
+  line-height: 20px;
+  font-weight: 300px; }
 }
-#sublistahab {
 
-        font-size: 11px;
-        line-height: 15px;
+.elementoPADRE {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-content: center; }
 
-          }
-
-#sublistahab2EC {
-
-        font-size: 11px;
-        line-height: 15px;
-
-          }
-
-#sublistahabMIXTACOMP {
-
-        font-size: 11px;
-        line-height: 15px;
-
-          }
-
-#sublistaMIXTAAC {
-
-        font-size: 11px;
-        line-height: 15px;
-
-          }
-
-#sublistaHABDOBLE2camas {
-
-        font-size: 11px;
-        line-height: 15px;
-
-          }
-
-   
+#contenedorHab {
+  display:flex;
+  flex-direction: column; 
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-content: center; }
+ 
 .cajahab {
-      background: none;
-      width: 150vw;
-      height:30vh;
-      font-size: 3px;
-      text-align: center;
-      border:4px double #BDB76B;
-      margin: 20px 80px 20px 80px;
-      border-radius: 40px;
-      list-style-position: outside;
-          }
+  background: none;
+  width: 150vw;
+  height:30vh;
+  font-size: 3px;
+  text-align: center;
+  border:4px double #BDB76B;
+  margin: 20px 80px 20px 80px;
+  border-radius: 40px;
+  list-style-position: outside; }
 
 .imghab {
-     display: none;
-     }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  height: 50vh;
+  padding: auto; }
 
-     .sticky {
-      display: none;
-    }
+#sublistahab {
+  font-size: 11px;
+  line-height: 15px; }
 
+#sublistahab2EC {
+  font-size: 11px;
+  line-height: 15px; }
+
+#sublistahabMIXTACOMP {
+  font-size: 11px;
+  line-height: 15px; }
+
+#sublistaMIXTAAC {
+  font-size: 11px;
+  line-height: 15px; }
+
+#sublistaHABDOBLE2camas {
+  font-size: 11px;
+  line-height: 15px; }
+
+.sticky {
+  display: none; }
 }
-
 
 @media (min-width: 480px) {
 
 #border {
-border-color: #B8E68A;
-
+  border-color: #B8E68A; }
 }
-
-}
-
 
 @media (min-width: 768px) {
 
 #border {
-border-color:#31B189;}
+  border-color:#31B189; }
 
 }

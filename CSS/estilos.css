@@ -14,7 +14,8 @@
   grid-gap: 3rem;
   grid-template-areas: "Servicios" "Habitaciones" "Galeria" "Ubicacion" "Contacto";
   align-items: stretch;
-  background-image: url(fotos/cocina.jpg);
+  justify-content: stretch;
+  background-color: #e6fff2;
   padding: 5%;
   border-radius: 10px;
   opacity: 0.9; }
@@ -528,17 +529,34 @@ a:hover {
       letter-spacing: 2.5px;
       line-height: 20px;
       font-weight: 300px; }
+  #listas {
+    font-family: 'Comfortaa', cursive;
+    color: #31B189;
+    font-weight: lighter;
+    list-style-position: inside;
+    text-align: center;
+    font-size: 30px; }
   #contenedorHab {
     display: flex;
-    flex-direction: row; }
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: center; }
+  .imghab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    height: 50vh;
+    padding: auto; }
   .cajahab {
-    background: url(Fotos/fondo1.jpg);
+    background: url(fotos/fondo1.jpg);
     background-size: cover;
     width: 80vw;
     height: 40vh;
-    padding: 5%;
+    padding: 10px;
     border: 2px double #BDB76B;
-    margin: 20px 80px 20px 80px;
+    margin: 5px 5px 5px 5px;
     border-radius: 40px;
     list-style-image: outside; }
   #sublistahab {
@@ -556,8 +574,6 @@ a:hover {
   #sublistaHABDOBLE2camas {
     font-size: 12px;
     line-height: 18px; }
-  .imghab {
-    display: none; }
   #subtitulosCyC {
     text-align: center;
     letter-spacing: 1px;
@@ -678,6 +694,29 @@ a:hover {
     justify-content: space-evenly;
     flex-wrap: nowrap;
     align-content: center; }
+  #contenedorHab {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: center; }
+  .cajahab {
+    background: none;
+    width: 150vw;
+    height: 30vh;
+    font-size: 3px;
+    text-align: center;
+    border: 4px double #BDB76B;
+    margin: 20px 80px 20px 80px;
+    border-radius: 40px;
+    list-style-position: outside; }
+  .imghab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    height: 50vh;
+    padding: auto; }
   #sublistahab {
     font-size: 11px;
     line-height: 15px; }
@@ -693,18 +732,6 @@ a:hover {
   #sublistaHABDOBLE2camas {
     font-size: 11px;
     line-height: 15px; }
-  .cajahab {
-    background: none;
-    width: 150vw;
-    height: 30vh;
-    font-size: 3px;
-    text-align: center;
-    border: 4px double #BDB76B;
-    margin: 20px 80px 20px 80px;
-    border-radius: 40px;
-    list-style-position: outside; }
-  .imghab {
-    display: none; }
   .sticky {
     display: none; } }
 
@@ -895,7 +922,6 @@ main div img {
   margin-left: 10px;
   border-image: 10px; }
 
-/*_______________________________________________*/
 /*_____________FLEXBOX_____________*/
 #contenedorprincipal {
   display: flex; }
@@ -908,9 +934,6 @@ main div img {
   align-items: baseline;
   flex-wrap: wrap; }
 
-/*________________________________*/
 /*GALERIA*/
 .carousel img {
   height: auto; }
-
-/*________*/

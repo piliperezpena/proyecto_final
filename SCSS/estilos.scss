@@ -26,8 +26,7 @@ h2 {
 		color:$verde;
 		letter-spacing: 1px;
 		line-height: 20px;
-		font-weight: 700px;
-    }
+		font-weight: 700px; }
     
 header h2 {
 		  line-height: 20px;
@@ -39,8 +38,7 @@ h3 {
             letter-spacing: 1px;
             line-height: 20px;
             font-weight: lighter;
-            text-decoration: underline wavy $colorcaja;
-         }
+            text-decoration: underline wavy $colorcaja; }
           
 h4 {
             font: bold, "Comfortaa", cursive;
@@ -80,7 +78,7 @@ main {
               height: 15vh;
               border-radius: 10px;
               max-width: 100%; }
-        }
+}
 
 .caja {
                 background-color: $colorfondo;
@@ -93,8 +91,7 @@ main {
                 margin-bottom: 40px;
                 margin-right: auto;
                 border-radius: 40px;
-                opacity: 0.9;
-                }   
+                opacity: 0.9; }   
 nav div {
                     display:flex;	
                     flex-direction: row;
@@ -132,6 +129,7 @@ nav div {
                       font-size: 20px; }
 
 hr {border: 1px dashed grey; height: 0; width: 100%;}
+
 /*_____________GRID_____________*/
                   
 main {
@@ -147,21 +145,19 @@ main div img {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    border-radius: 10px;}
+    border-radius: 10px; }
    
 .item-a {
-    grid-row: 1 / 3;}
+    grid-row: 1 / 3; }
    
 .item-b {
-    grid-column: 3 / 5;}
+    grid-column: 3 / 5; }
    
 .item-c {
-    grid-row: 2 / 4;}
+    grid-row: 2 / 4; }
    
 .item-d {
-    grid-column: 3 / 5;}
-  
-
+    grid-column: 3 / 5; }
 
 /*_______FRAMEWORKS CSS + BOOTSTRAP________*/
                   
@@ -169,19 +165,18 @@ main div img {
     margin-right: 10px;
     margin-bottom:10px;
     margin-left: 10px;
-    border-image: 10px;}
+    border-image: 10px; }
 
 .col-sm-4 img{
     margin-right: 10px;
     margin-bottom:10px;
     margin-left: 10px;
-    border-image: 10px;}          
-/*_______________________________________________*/
+    border-image: 10px; }          
 
 /*_____________FLEXBOX_____________*/
                   
 #contenedorprincipal {
-    display: flex;}
+    display: flex; }
 
 #galeria {
     display: flex;
@@ -189,15 +184,13 @@ main div img {
     flex-basis: 10%;
     justify-content: space-evenly;
     align-items: baseline;
-    flex-wrap: wrap;}
-
-/*________________________________*/
+    flex-wrap: wrap; }
 
 /*GALERIA*/
+
 .carousel img {        
       height: auto; }
   
-/*________*/  
 
                   
 
